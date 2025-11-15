@@ -1,0 +1,134 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: whitesmoke;
+    color: dimgrey;
+}   
+
+h1 h2{
+    color: deepskyblue;
+}
+
+header{
+    background-color: white;
+    box-shadow: 0 4px 6px;
+    padding: 15px 5%;
+    display: flex;
+    align-items: center;
+}
+
+.lop{
+    position: relative;
+}
+
+.lop-hop{
+    position: absolute;
+    min-width: 90px;
+    background-color: bisque;
+    display: none;
+}
+
+.lop-hop li a{
+    color: brown;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.lop-hop li a:hover{
+    background-color: bisque;
+}
+
+.lop:hover .lop-hop{
+    display: block;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 300px;
+    color: deepskyblue;
+}
+
+nav{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0%;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+.dang-ky-email{
+    background-color: green;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 100px;
+    box-shadow: 0 4px 0;
+    margin-left: 25px;
+}
+
+.khung-email{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgb(59, 50, 38);
+    border-radius: 20px;
+    box-shadow: 0 10px 25;
+}
+
+.khung-email label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: brown;
+}
+
+.khung-email input[type="text"]
+.khung-email input[type="number"]
+.khung-email input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid sandybrown;
+    border-radius: 10px;
+}
+
+.khung-email button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: green ;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.thanh-cong-hop{
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px;
+    background-color: dimgrey;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.hop-email h2{
+    color: aqua;
+    text-align: center;
+}
+
+.thanh-cong-hop h3{
+    color: aqua;
+}
+
+.thanh-cong-hop p{
+    color: aqua;
+}

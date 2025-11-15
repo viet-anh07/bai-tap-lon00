@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học toán online</title>
+    <link rel="stylesheet" href="./css/khoá học.css">
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Học Toán Vui</div>
+        <nav>
+            <ul>
+                <li><a href="bài tập lớn html.html">Trang chủ</a></li>
+                <li class="lop">
+                    <a href="khoá học.html">khoá học</a>
+                    <ul class="lop-hop">
+                    <li><a href="khoá học.html">lớp 1</a></li>
+                    <li><a href="khoá học.html">lớp 2</a></li>
+                    <li><a href="khoá học.html">lớp 3</a></li>
+                    <li><a href="khoá học.html">lớp 4</a></li>
+                    <li><a href="khoá học.html">lớp 5</a></li>
+                 </ul>
+                </li>
+            </ul>
+        </nav>
+        <a href="đăng ký.html" class="dang-ky-email">Đăng ký</a>
+    </header>
+
+    <div class="video-img">
+        <div class="video-img-hop">
+            <h1>Video hướng dẫn</h1>
+            <video width="100%" height="200px" controls autoplay>
+                <source src="./video/Học toán online - Google Chrome 2025-11-13 23-14-30.mp4">
+            </video>
+        </div>
+    </div>
+<section id="hop-tinh">
+    <div class="khung-cong-tru">
+        <h3>Cộng Trừ</h3>
+        
+        <div class="cong-tru">
+            <input type="number" id="num1" value="10">
+            <select id="cong-tru-js">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">x</option>
+                <option value="/">%</option>
+            </select>
+            <input type="number" id="num2" value="10">
+        </div>
+        <button onclick="ketquatinhtoan()">Tính toán</button>
+        <div id="ket-qua" class="ket-qua"></div>
+        <p id="hien-thi-kq" class="hien-thi-kq-css">Kết quả</p>
+    </div>
+    <div class="tien-do">
+            <h3>Tiến độ học sinh</h3>
+            <progress value="0" max="100">0%</progress>
+        </div>
+    <div id="bai-tap">
+    <div class="mo-ta-bt">
+    <h3>bài tập tương tác</h3>
+    <p>Hãy lấy 30 + 50 </p>
+    </div>
+    <div class="mo-ta-bt">
+    <h3>bài tập tương tác</h3>
+    <p>Hãy lấy 50 - 10</p>
+    </div>
+    <div class="mo-ta-bt">
+    <h3>bài tập tương tác</h3>
+    <p>Hãy lấy 5 x 5</p>
+    </div>
+    </div>
+    </section>
+
+    <script src="khoá học.js"></script>
+</body>
+</html>
